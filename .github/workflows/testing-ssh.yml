@@ -11,4 +11,5 @@ jobs:
           username: "keicee"
           password: "kelechukwu1$"
           key: ${{ secrets.SSH_KEY }}
+          debug: true
           script: touch ~/github-file.txt
