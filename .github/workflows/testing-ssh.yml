@@ -11,5 +11,6 @@ jobs:
           username: "keicee"
           password: "kelechukwu1$"
           key: ${{ secrets.SSH_KEY }}
+          timeout: 600s
           debug: true
           script: touch ~/github-file.txt
