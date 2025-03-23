@@ -9,5 +9,4 @@ jobs:
         with:
           host: "172.20.71.180"
           user: "keicee"
-      - name: Create file
-        script: touch ~/github-file.txt
+          script: touch ~/github-file.txt
