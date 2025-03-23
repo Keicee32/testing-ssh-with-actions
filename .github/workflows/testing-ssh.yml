@@ -9,4 +9,5 @@ jobs:
         with:
           host: "172.20.71.180"
           user: "keicee"
+          key: ${{ secrets.SSH_KEY }}
           script: touch ~/github-file.txt
