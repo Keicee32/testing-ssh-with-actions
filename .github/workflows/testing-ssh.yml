@@ -7,7 +7,7 @@ jobs:
       - name: Connect via SSH
         uses: appleboy/ssh-action@v1
         with:
-          host: 172.20.71.180
-          user: keicee
+          host: "172.20.71.180"
+          user: "keicee"
       - name: Create file
         script: touch github-file.txt
