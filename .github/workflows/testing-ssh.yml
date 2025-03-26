@@ -9,7 +9,6 @@ jobs:
         with:
           host: "172.20.71.180"
           username: "keicee"
-          password: "kelechukwu1$"
           key: ${{ secrets.SSH_KEY }}
           timeout: 600s
           debug: true
